@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+ul li a {
+    color: blue;
+    margin: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+footer {
+    padding: 30px;
+    background-color: black;
+}
+footer h2 {
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+footer h4 {
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: stretch;
+    padding: 15px;
+}
+
+/*index*/
+
+.imagen_logo {
+    width: 100%;
+}
+.video_container div {
+    margin: 20px;
+}
+.video_container iframe {
+    width: 600px;
+    height: 350px;
+    display: flex;
+}
+.empresa h2 {
+    color: black;
+    font-size: 1.3rem;
+    display: flex;
+    padding: 20px;
+}
+.empresa img {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   width: 600px;
+   height: 450px;
+}
+
+/*Catalogo de autos*/
+.catalogo_autos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+}
+
+.catalogo_camionetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+}
+
+.catalogo_suv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+}
+
+
+/*Media queries*/
+
+@media only screen and (max-width:768px) {
+
+}
+@media only screen and (max-width:576px){
+
+/*Catalogo de autos responsive*/
+.catalogo_autos {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.catalogo_camionetas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.catalogo_suv {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+}
+header {
+    flex-direction: column;
+    align-items: center;
+}
