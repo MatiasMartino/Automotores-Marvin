@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: darkgray;
+}
+
+ul {
+    display: flex;
+}
+
+ul img {  
+    display: flex;
+    width: 120px;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+ul li a {
+    font-size: 28px;
+    color: blue;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.catalogo_container {
+   
+}
+.texto_1 {
+    color: red;
+    text-align: center;
+    padding: 80px;
+}
+
+
+.catalogo_fotos {
+    width: 400px;
+    display: inline-block;
+    transition: width 4s, border-radius 1s;
+}
+
+.catalogo_fotos:hover {
+    border-radius: 50%;
+    width: 600px;
+}
+
+.catalogo_fotos2 {
+    width: 400px;
+    display: inline-block;
+    transition: width 4s; border-radius: 1s;
+}
+
+.catalogo_fotos2:hover {
+    border-radius: 50%;
+    width: 600px;
+}
+
+.catalogo_fotos3 {
+    height: 400px;
+    display: inline-block;
+    transition: width 4s; border-radius: 1s;
+}
+
+.catalogo_fotos3:hover {
+    border-radius: 50%;
+    height: 600px;
+}
+
+.texto_2 {
+    text-align: center;
+    color: red;
+    padding: 100px;
+}
+
+.catalogo_camionetas {
+   text-align: center;
+}
+
+.catalogo_camionetas_1 {
+    width: 400px;
+    display: inline-block;
+    transition: width 4s; border-radius: 1s;
+}
+.catalogo_camionetas_1:hover {
+    border-radius: 50%;
+    width: 600px;
+}
+
+.catalogo_camionetas_2 {
+    width: 400px;
+    display: inline-block;
+    transition: width 4s; border-radius: 1s;
+}
+.catalogo_camionetas_2:hover {
+    border-radius: 50%;
+    width: 600px;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+}
+footer h2 {
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+footer h4 {
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: stretch;
+    padding: 15px;
+}
