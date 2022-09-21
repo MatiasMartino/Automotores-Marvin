@@ -127,3 +127,49 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
+
+/*Bootstrap index*/
+
+.h2_boots{
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    font-family: sans-serif;
+    color: red;
+}
+
+.row p {
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-style: italic;
+}
+
+/*bootstrap catalogo*/
+
+.btn-propio{
+    background-color: gold;
+    border-color: blue;
+}
+
+.btn-propio:hover{
+    color: beige;
+    background-color: brown;
+}
+
+.card-propia{
+    padding-left: 10px;
+    border: 2px solid blue;
+    margin-left: 10px;
+}
+
+/*bootstrap carrusel*/
+.carrusel-propio{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: darkslategray;
+}
